@@ -1,0 +1,118 @@
+body {
+    height: 100vh;
+    background: rgb(187, 187, 187);
+    background: linear-gradient(90deg, rgba(187, 187, 187, 1) 50%, rgb(60 78 95) 50%);
+}
+
+#container {
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#heading {
+    position: relative;
+    margin-bottom: 10%;
+    color: gray;
+}
+
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#text-box {
+    width: 100%;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+#add {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    color: rgb(17, 17, 90);
+    right: 9%;
+    font-size: 48px;
+}
+
+.display {
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.del {
+    position: absolute;
+    left: 80%;
+}
+
+.task-text {
+    margin-left: 25px;
+}
+
+.chk {
+    align-items: center;
+    position: absolute;
+    left: 14%;
+    margin-right: 30px;
+}
+
+.chk input {
+    width: 20px;
+    height: 20px;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 40px;
+    left: 0px;
+    margin-bottom: 10px;
+}
+
+#all-task {
+    background-color: rgb(17, 17, 77);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+#complete {
+    background-color: rgb(17, 17, 77);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.overline {
+    text-decoration: line-through;
+    color: rgba(128, 128, 128, 0.74);
+}
+
+#complete-display {
+    display: none;
+}
